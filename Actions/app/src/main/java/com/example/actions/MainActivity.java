@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_SEND);
                 intent.setType("message/rfc822");
-                intent.putExtra(Intent.EXTRA_EMAIL  , new String[]{"ouklichoussama@gmail.com"});
+                intent.putExtra(Intent.EXTRA_EMAIL  , new String[]{"oouklich@student.1337.ma"});
                 intent.putExtra(Intent.EXTRA_SUBJECT, "subject of email");
                 intent.putExtra(Intent.EXTRA_TEXT   , "body of email");
                 startActivity(Intent.createChooser(intent, null));
