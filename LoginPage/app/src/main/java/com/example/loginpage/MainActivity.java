@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void onCreateAccount(View view) {
         Intent intent = new Intent(this, CreateAccount.class);
-        startActivityForResult(intent, 3);
+        startActivityForResult(intent, 2);
     }
     public void onSignIn(View view) {
         if (login.length() == 0)
