@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/reset"
+        android:title="reset"></item>
+    <item android:id="@+id/options"
+        android:title="image options" >
+        <!-- "file" submenu -->
+        <menu>
+            <item android:id="@+id/add_img"
+                android:title="add image" />
+            <item android:id="@+id/del_img"
+                android:title="delete image" />
+        </menu>
+    </item>
+    <item android:id="@+id/optionsplusplus"
+        android:title="other options" >
+        <!-- "file" submenu -->
+        <menu>
+            <item android:id="@+id/ensa"
+                android:title="ensa site" />
+            <item android:id="@+id/home"
+                android:title="home" />
+            <item android:id="@+id/mail"
+                android:title="send mail" />
+            <item android:id="@+id/sms"
+                android:title="send sms" />
+        </menu>
+    </item>
+</menu>
